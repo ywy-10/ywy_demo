@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+package product;
+
+option go_package = "github.com/ywy-10/ywy_demo/proto";
+
+// 1. 搜索
+message SearchRequest {
+  string keyword = 1;
+  uint64 brand_id = 2;
+}
+message SearchResponse {
+  repeated GoodDetailResponse list = 1;
+}
+
+// 2. 创建商品
+message GoodCreateRequest {
+  uint64 brand_id        = 1; // 品牌id
+  string main_image      = 2; // 商品主图
+  uint64 slider_image_id = 3; // 商品相册id
+  string store_name      = 4; // 商品名称
+  float  price           = 5; // 商品价格
+  uint64 stock           = 6; // 商品库存
+  string store_info      = 7; // 商品描述
+  uint64 cate_id         = 8; // 商品分类id
+}
+message GoodCreateResponse {
+  uint64 id = 1; // 商品ID
+}
+
+// 3. 商品详情
+message GoodDetailRequest {
+  uint64 id = 1; // 商品ID
+}
+message GoodDetailResponse {
+  uint64 id               = 1; // 商品ID
+  uint64 brand_id         = 2; // 品牌id
+  string main_image       = 3; // 商品主图
+  uint64 slider_image_id  = 4; // 商品相册id
+  string store_name       = 5; // 商品名称
+  float  price            = 6; // 商品价格
+  uint64 stock            = 7; // 商品库存
+  string store_info       = 8; // 商品描述
+  uint64 cate_id          = 9; // 商品分类id
+}
+
+// 4. 订单模块获取商品价格
+message GoodPriceRequest {
+  uint64 goods_id = 1;
+}
+message GoodPriceResponse {
+  float price = 1;
+}
+
+// 5. 服务定义
+service ProductService {
+  rpc Search      (SearchRequest)      returns (SearchResponse);
+  rpc GoodCreate  (GoodCreateRequest)  returns (GoodCreateResponse);
+  rpc GoodDetail  (GoodDetailRequest)  returns (GoodDetailResponse);
+  rpc GoodPrice   (GoodPriceRequest)   returns (GoodPriceResponse);
+}
