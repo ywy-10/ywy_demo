@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="GoodCreateRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodCreateResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodDetailRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodDetailResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodPriceRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodPriceResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UnimplementedProductServiceServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defaultProductService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/client/product_client.go" />
+              <option value="file://$PROJECT_DIR$/ywy-product-client/client/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="productServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="x">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/../deepseek_test/demo.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755787242918" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/ywy-product-client/client/product_client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755785784166" />
+              <option name="schema">
+                <list>
+                  <option value="defaultProductService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/ywy-product-client/client/productservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755785784166" />
+              <option name="schema">
+                <list>
+                  <option value="defaultProductService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/ywy-product-client/proto/product.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755785732206" />
+              <option name="schema">
+                <list>
+                  <option value="SearchRequest" />
+                  <option value="SearchResponse" />
+                  <option value="GoodCreateRequest" />
+                  <option value="GoodCreateResponse" />
+                  <option value="GoodDetailRequest" />
+                  <option value="GoodDetailResponse" />
+                  <option value="GoodPriceRequest" />
+                  <option value="GoodPriceResponse" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/ywy-product-client/proto/product_grpc.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755785732207" />
+              <option name="schema">
+                <list>
+                  <option value="productServiceClient" />
+                  <option value="UnimplementedProductServiceServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="default_product_service" value="defaultProductService" />
+        <entry key="good_create_request" value="GoodCreateRequest" />
+        <entry key="good_create_response" value="GoodCreateResponse" />
+        <entry key="good_detail_request" value="GoodDetailRequest" />
+        <entry key="good_detail_response" value="GoodDetailResponse" />
+        <entry key="good_price_request" value="GoodPriceRequest" />
+        <entry key="good_price_response" value="GoodPriceResponse" />
+        <entry key="product_service_client" value="productServiceClient" />
+        <entry key="search_request" value="SearchRequest" />
+        <entry key="search_response" value="SearchResponse" />
+        <entry key="unimplemented_product_service_server" value="UnimplementedProductServiceServer" />
+        <entry key="x" value="x" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1755784003820" />
+  </component>
+</project>
